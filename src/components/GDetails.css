@@ -1,0 +1,123 @@
+ *{
+    font-family:JioBold;
+}
+
+.mini{
+    color: white;
+    font-size:50px;
+    background-color: navy;
+}
+.container{
+    width: 90%;
+    height: 100%;
+    display:grid;
+    grid-template-columns: repeat(5,20%);
+    grid-gap:5px;
+    margin-left: 60px;
+    margin-top: 30px;
+   
+}
+
+.card{
+    background-color: rgb(253, 243, 234);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p{
+    font-size: 12px;
+  
+    text-overflow:wrap;
+    overflow:wrap;
+}
+.price{
+    font-size: 12px;
+    display:flex;
+    justify-content:left;    
+    text-overflow:wrap;
+    gap:5px;
+}
+
+h4{
+    text-decoration: line-through;
+}
+h1{
+    
+    border: 1px solid rgb(211, 208, 208);
+    height: 100%;
+    border-radius: 10px;
+}
+.sunny{
+    border:2px solid rgb(202, 0, 0);
+    height:50px;
+    width:190px;
+    margin-left: 38px;
+    transform:skew(20deg);
+    background-color: rgb(189, 2, 2);
+}
+.topdeal{
+    text-align: left;
+    font-size:35px;
+    color: rgb(255, 252, 252);
+    font-weight: bold;
+    margin-left: 26px;
+    margin-top: -0.2px;
+    transform:skew(-20deg);
+
+
+}
+.addcart{
+    background-color:rgb(1, 8, 147);
+    border: none;
+    color: rgb(251, 243, 243);
+    border-radius: 10px;
+    font-size: 15px;
+    height: 40px;
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 20px;
+    /* padding: 5px; */
+}
+.all-btn{
+    display: flex;
+}
+.btn{
+    display: flex;
+    margin: 10px;
+  
+}
+.btn > button{
+    margin-right: 8px;
+    margin-left: 10px;
+    height: 25px;
+    
+}
+.minus-btn{
+    background-color:rgb(1, 8, 147);
+    border: none;
+    color: rgb(251, 243, 243);
+    border-radius: 10px;
+    font-size: 15px;
+    height: 40px;
+    width: 35px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.plusbtn{
+    background-color:rgb(1, 8, 147);
+    border: none;
+    color: rgb(251, 243, 243);
+    border-radius: 10px;
+    font-size: 15px;
+    height: 40px;
+    width: 35px;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: bold;
+}
+.count-item{
+    font-size: 18px;
+  
+}
